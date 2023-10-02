@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pexels_eberhard_grossgasteiger_1699020"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="400px"
+        android:text="Fazer Login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="313dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200px"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Username"
+        android:textColor="#FDFCFC"
+        android:textColorHint="#E6D8D8" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="313dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75px"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="122dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="165px"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:text="Lembrar de Mim"
+        android:textColor="#EDEDED" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:backgroundTint="#1C7888"
+        android:text="Entrar" />
+
+</LinearLayout>
